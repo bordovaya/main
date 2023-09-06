@@ -33,7 +33,16 @@ if d>10 and e>10 and f >10:
 else:
     print('No')
 
+#f_1 = [-1, 3, 4, 5, 6]
+#result = 0
+#for elem in f_1[0]<0:
+#    result = result + 1
+#return result
+#    print(f_1[-1, 3, 4, 5, 6])
 
+def dn(l,m):
+    return (l*29*12)+(m*29)
+print(dn(2,2))
 
 
 
