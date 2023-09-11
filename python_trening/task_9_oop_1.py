@@ -1,7 +1,9 @@
-class Input:
+from python_trening.task_9_checks import Checks
+class Input(Checks):
     def __init__(self, loc, text):
-        self.loc = loc
+        #self.loc = loc
         self.text = text
+        super().__init__(loc)
 class Button:
     def __init__(self, loc, text):
         self.loc = loc
