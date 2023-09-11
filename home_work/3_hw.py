@@ -44,6 +44,10 @@ def dn(l,m):
     return (l*29*12)+(m*29)
 print(dn(2,2))
 
+#p = [1, 2, 3]
+#len(list(filter(lambdax:x>0, a))):
+
+
 
 
 
