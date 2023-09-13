@@ -1,6 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By # нужен, чтобы искать элементы
-from selenium.common.exceptions import NoSuchElementException # поиск ошибок
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 
 def test_site_visit():
     driver = webdriver.Chrome()
